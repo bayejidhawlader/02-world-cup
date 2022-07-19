@@ -21,11 +21,29 @@ header{
 
 }
 
-
 .header-left{
     margin: 0 100px;
+    /* margin: 0 100px 0 100px; */
 }
 .header-left h1{
     font-size: 70px;
     color: #fff;
+    line-height: 1.1em;
+}
+.header-left p{
+    color: #fff;
+}
+
+.button{
+    color: #fff;
+    background-color: #DD0000;
+    border-radius: 5px;
+    padding: 16px 25px;
+    border: none;
+    font-size: 20px;
+}
+
+
+.header-right img{
+    margin-right: 100px;
 }
