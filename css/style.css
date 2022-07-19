@@ -1,10 +1,20 @@
-/* Body Css */
+/* Body & Common Css */
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
 
+.container{
+    max-width: 1321px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.red-button{
+    color: #fff;
+    background-color: #DD0000;
+}
 
 /* HEADER */
 header{
@@ -14,10 +24,7 @@ header{
     height: 646px;
     align-items: center;
     display: flex;
-    margin: 0 auto;
-    position: absolute;
-    left: 140px;
-    top: 50px;
+    margin: 40px auto 0;
 
 }
 
@@ -34,16 +41,72 @@ header{
     color: #fff;
 }
 
-.button{
+ /* Header Button */
+ .button{
     color: #fff;
     background-color: #DD0000;
     border-radius: 5px;
     padding: 16px 25px;
     border: none;
     font-size: 20px;
+    cursor: pointer;
+}
+.button:hover{
+    color: #DD0000;
+    background-color: #fff;
 }
 
 
 .header-right img{
     margin-right: 100px;
+    position: relative;
+    top: 70px;
+}
+
+
+
+/* BLOG */
+.main-blog{
+    display: flex;
+}
+
+/* Match Area Button */
+.match-area{
+    width: 312px;
+    height: 312px;
+    background: #161616;
+    border-radius: 10px;
+}
+.match-three-button{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+    flex-direction: column;
+    height: 310px;
+}
+.match-three-button button{
+    width: 252px;
+    height: 64px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+/* Match Content */
+.match-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.single-match{
+    width: 312px;
+    height: 362px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+.match-icon{
+    display: flex;
+    align-items: center;
 }
