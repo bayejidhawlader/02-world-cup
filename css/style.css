@@ -4,3 +4,28 @@ body{
     margin: 0;
     padding: 0;
 }
+
+
+/* HEADER */
+header{
+    background-color: #161616;
+    border-radius: 30px;
+    width: 1321px;
+    height: 646px;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    position: absolute;
+    left: 140px;
+    top: 50px;
+
+}
+
+
+.header-left{
+    margin: 0 100px;
+}
+.header-left h1{
+    font-size: 70px;
+    color: #fff;
+}
