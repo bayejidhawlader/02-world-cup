@@ -11,7 +11,7 @@ body{
     margin-top: 130px;
 }
 
-.red-button{
+.match-three-button .red-button{
     color: #fff;
     background-color: #DD0000;
 }
@@ -89,6 +89,7 @@ header{
     height: 64px;
     border-radius: 10px;
     cursor: pointer;
+    background-color: #fff;
     font-size: 20px;
 }
 
@@ -214,9 +215,9 @@ footer hr{
 
 
 
-/* HOME PAGE RESPONSIVE */
+/* RESPONSIVE */
 
-/* Mobile */
+/* Home Mobile */
 @media screen and (max-width:576px){
     header{
         flex-direction: column;
@@ -245,12 +246,20 @@ footer hr{
         flex-direction: column;
         display: grid;
     }
-    .main-blog, .match-content{
+    .main-blog, .match-content, .match-live-content{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
     }
-    .main-blog .single-match{
-        width: 100%;
-        height: auto;
+    .view-all button{
+        display: none;
+    }
+    .match-three-button button{
+        border: 1px solid #ddd;
+    }
+
+    /* Upcoming Match mobile */
+    footer{
+        /* width: auto; */
     }
 }
