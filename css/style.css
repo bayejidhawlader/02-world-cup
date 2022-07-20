@@ -143,7 +143,6 @@ header{
     border-radius: 5px;
     color: #fff;
     font-size: 20px;
-    /* font-weight: 400; */
 }
 
 /* FOOTER */
@@ -257,9 +256,44 @@ footer hr{
     .match-three-button button{
         border: 1px solid #ddd;
     }
+}
 
-    /* Upcoming Match mobile */
-    footer{
-        /* width: auto; */
+/* Tablet */
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    .match-three-button{
+        /* margin: 0 auto;
+        flex-direction: row;
+        background-color: white; */
+    }
+    .main-blog, .match-content, .match-live-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+    /* }
+    .blog{
+        flex-direction: column;
+    } */
+    .match-three-button a{
+        width: 100%;
+        height: auto;
+    }
+
+    .match-three-button{
+
+    }
+    /* VIEW ALL */
+    .view-all{
+        text-align: center;
+    }
+    .view-all button{
+        padding: 14px 30px;
+        cursor: pointer;
+        margin-top: 50px;
+        background-color: #DD0000;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 20px;
     }
 }
