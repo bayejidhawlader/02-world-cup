@@ -197,12 +197,14 @@ footer hr{
     align-items: center;
     justify-content: center;
 }
+
 .match-flag-logo{
     width: 280px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 .match-flag-logo img{}
 .match-flag-logo h3{}
 .match-flag-content{}
@@ -218,20 +220,19 @@ footer hr{
 @media screen and (max-width:576px){
     header{
         flex-direction: column;
-        padding: 5% 10% 0;
+        width: 95%;
         text-align: center;
     }
     .header-left h1 {
-        font-size: 21px;
+        font-size: 33px;
     }
     .header-left p {
-        margin: 0 330px;
     }
     .button {
         margin-top: 20px;
     }
     .header-right img {
-        width: 74%;
+        width: 48.3%;
         margin: 0 auto;
     }
     .match-area{
@@ -247,5 +248,9 @@ footer hr{
     .main-blog, .match-content{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+    .main-blog .single-match{
+        width: 100%;
+        height: auto;
     }
 }
