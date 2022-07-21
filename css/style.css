@@ -257,6 +257,16 @@ footer hr{
     .match-three-button button{
         border: 1px solid #ddd;
     }
+    .footer-nav a {
+        margin: 5px;
+        display: block;
+    }
+    .footer-nav {
+        margin: 0;
+    }
+    .social-media {
+        margin-top: 30px;
+    }
 }
 
 /* Tablet */
