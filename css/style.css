@@ -264,19 +264,31 @@ footer hr{
     header{
         width: 970px;
     }
-    .main-blog, .match-content, .match-live-content{
+    .container{
+        margin-top: 0;
+    }
+    .main-blog{
+        display: grid;
+        /* grid-template-columns: repeat(2, 1fr); */
+        justify-items: center;
+        flex-wrap: wrap;
+    }
+    .match-content {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        justify-items: center;
+        grid-gap: 20px;
     }
     .match-area{
         background: none;
+        height: 170px;
     }
     .match-three-button{
         flex-direction: row;
         background: #fff !important;
         gap: 30px;
-        margin: -213px 0 0 487px;
+        height: 180px;
+        /* margin: -213px 0 0 487px; */
+        /* display: none; */
     }
     .view-all{
         display: block;
