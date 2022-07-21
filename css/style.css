@@ -271,12 +271,12 @@ footer hr{
         display: grid;
         /* grid-template-columns: repeat(2, 1fr); */
         justify-items: center;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
     }
-    .match-content {
-        display: grid;
+    .match-content, .match-live-content {
+        /* display: grid; */
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 20px;
+        /* grid-gap: 20px; */
     }
     .match-area{
         background: none;
