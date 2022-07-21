@@ -49,10 +49,12 @@ header{
     border: none;
     font-size: 20px;
     cursor: pointer;
+    transition: transform 250ms;
 }
 .button:hover{
     color: #DD0000;
     background-color: #fff;
+    transform: translateY(-10px);
 }
 .header-right img{
     margin-right: 100px;
