@@ -172,7 +172,6 @@ footer hr{
 }
 
 /* Social Media */
-.social-media{}
 .social-media a{
     color: #fff;
     margin: 0 10px;
@@ -206,14 +205,6 @@ footer hr{
     justify-content: space-between;
 }
 
-.match-flag-logo img{}
-.match-flag-logo h3{}
-.match-flag-content{}
-.match-flag-content h3{}
-.match-flag-content p{}
-
-
-
 
 /* RESPONSIVE */
 
@@ -226,8 +217,6 @@ footer hr{
     }
     .header-left h1 {
         font-size: 33px;
-    }
-    .header-left p {
     }
     .button {
         margin-top: 20px;
@@ -279,14 +268,10 @@ footer hr{
     }
     .main-blog{
         display: grid;
-        /* grid-template-columns: repeat(2, 1fr); */
         justify-items: center;
-        /* flex-wrap: wrap; */
     }
     .match-content, .match-live-content {
-        /* display: grid; */
         grid-template-columns: repeat(2, 1fr);
-        /* grid-gap: 20px; */
     }
     .match-area{
         background: none;
@@ -297,8 +282,6 @@ footer hr{
         background: #fff !important;
         gap: 30px;
         height: 180px;
-        /* margin: -213px 0 0 487px; */
-        /* display: none; */
     }
     .view-all{
         display: block;
